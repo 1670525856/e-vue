@@ -1,28 +1,33 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <eheader></eheader> -->
+    <router-view></router-view>
+    <!-- <efooter></efooter> -->
+    <!-- <login1></login1> -->
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import eheader from "./components/eheader";
+// import efooter from "./components/efooter";
+// import login1 from './components/login/login1'
+
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    // eheader,
+    // efooter,
+
+    // login1
+
   }
-}
+};
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang='less'>
+*{
+  margin: 0;
+  padding: 0;
 }
 </style>
